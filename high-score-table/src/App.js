@@ -1,13 +1,13 @@
-import './App.css';
+import React from "react";
+import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        Hello React!
-      </header>
-    </div>
-  );
-}
+import ScoreCard from "./ScoreCard";
+
+
+const App = () => (
+  <div className="App">
+    <ScoreCard />
+  </div>
+);
 
 export default App;
