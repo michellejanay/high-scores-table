@@ -5,11 +5,11 @@ allCountryScores.sort((a, b) => (a.name < b.name ? -1 : 1));
 // allCountryScores.scores.sort((a,b) => (parseInt(a.s > b.s ? -1 : 1)))
 
 const ScoreCard = () => (
-  <div>
+  <div className="Score-card">
     <header>
       <h1>High Scores Per Country</h1>
     </header>
-    <PlayersScores countryScores={allCountryScores}/>
+    <PlayersScores countryScores={allCountryScores} />
   </div>
 );
 

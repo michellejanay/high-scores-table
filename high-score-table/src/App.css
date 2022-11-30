@@ -1,12 +1,22 @@
 .App {
   /* text-align: center; */
   font-family: 'Orbitron', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Card{
+  padding: 1rem 0;
 }
 .Card-data{
   display: flex;
   justify-content: space-around;
+  border: solid 1px black;
 }
-
+.Header{
+  text-align: center;
+  border: solid 1px black;
+}
 .Player-data{
   text-align: right;
 }
